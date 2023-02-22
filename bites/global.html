@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="keywords" content="meta tags, meta description, meta keywords, SEO, search engine optimization, crash politics, politics,">
+  <meta name="keywords"
+    content="meta tags, meta description, meta keywords, SEO, search engine optimization, crash politics, politics,">
   <title>Crash Politics</title>
   <link rel="icon" type="image/png" href="../media/logo.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,63 +14,78 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
+
 <body>
-<!-- NAVBAR -->
-<a target="_blank" href="https://www.instagram.com/crash.politics/"><div class="insta"></div></a> 
-    <script>
-        $(function(){
-          $("#navbar-placeholder").load("../components/navbar.html");
-        });
-        </script>
-      <div id="navbar-placeholder"></div>
-<!-- Main Stuff -->
+  <!-- NAVBAR -->
+  <a target="_blank" href="https://www.instagram.com/crash.politics/">
+    <div class="insta"></div>
+  </a>
+  <script>
+    $(function () {
+      $("#navbar-placeholder").load("../components/navbar.html");
+    });
+  </script>
+  <div id="navbar-placeholder"></div>
+  <!-- Main Stuff -->
 
-<h1 class="title">Global News</h1>
-<div class="featuredBites">
-<!--     FeaturedRow1 -->
-        <section>
-            <div data-aos="fade-up-right">
-                <a href="../.global/brazil-riot.html"> 
-                  <div class="card">
-                    <div class="testcard">
-                      <div class="cardimage" id="global1"></div>
-                    </div>
-                    <div class="cardTitle">Brazil, January 8</div>
-                   
-                </div>   
-                </a>
+  <h1 class="title">Global News</h1>
+  <div class="featuredBites">
+    <!--     FeaturedRow1 -->
+    <section>
+      <div data-aos="fade-up-right">
+        <a href="../.global/brazil-riot.html">
+          <div class="card">
+            <div class="testcard">
+              <div class="cardimage" id="global1"></div>
             </div>
-        </section>
+            <div class="cardTitle">Brazil, January 8</div>
+
+          </div>
+        </a>
+      </div>
+      <div data-aos="fade-up-right">
+        <a href="../.political debates/israel.html">
+          <div class="card">
+            <div class="testcard">
+              <div class="cardimage" id="political10"></div>
+            </div>
+            <div class="cardTitle">Israeli-Palestinian Conflict</div>
+            <div class="cardText"></div>
+          </div>
+        </a>
+      </div>
+    </section>
     <!-- FeaturedRow1 -->
-    
-    </div>
 
-<!-- Foooter -->
-      <script>
-        $(function(){
-          $("#footer-placeholder").load("../components/footer.html");
-        });
-        </script>
-      <div id="footer-placeholder"></div>
-
-<div class="loader-wrapper">
-  <div class="wrapper">
-    <script>
-      // loader
-      $(function(){
-        $("#loader-placeholder").load("../components/loader.html");
-      });
-      </script>
-    <div id="loader-placeholder"></div>
   </div>
-  <div id="filler"></div>
-</div>
-<script>
-  window.addEventListener('load', (event) => {
-  $('.loader-wrapper').fadeOut('slow')
-  })
-</script>
 
-<script src="../js/AOS.js"></script>
+  <!-- Foooter -->
+  <script>
+    $(function () {
+      $("#footer-placeholder").load("../components/footer.html");
+    });
+  </script>
+  <div id="footer-placeholder"></div>
+
+  <div class="loader-wrapper">
+    <div class="wrapper">
+      <script>
+        // loader
+        $(function () {
+          $("#loader-placeholder").load("../components/loader.html");
+        });
+      </script>
+      <div id="loader-placeholder"></div>
+    </div>
+    <div id="filler"></div>
+  </div>
+  <script>
+    window.addEventListener('load', (event) => {
+      $('.loader-wrapper').fadeOut('slow')
+    })
+  </script>
+
+  <script src="../js/AOS.js"></script>
 </body>
+
 </html>

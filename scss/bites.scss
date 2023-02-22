@@ -4,166 +4,185 @@
 @import '../scss/navbar';
 @import '../scss/footer';
 
-.bite-title{
-  color:var(--dark-purple);
-  font-family:regular;
-  font-size:3vw;
+.bite-title {
+  color: var(--dark-purple);
+  font-family: regular;
+  font-size: 3vw;
   text-align: center;
-  margin:1vw 0;;
+  margin: 1vw 0;
+  ;
 }
-.bite{
-  width:100%;
-  display:flex;
+
+.bite {
+  width: 100%;
+  display: flex;
   flex-direction: row;
   justify-content: center;
-  margin:4vw 0;
-  section{
-      width:35%;
-      display:flex;
-      min-height:2vw;
-      flex-direction: column;
-      h2{
-          font-family:bold;
-          font-size:1.3vw;
-      }
-      p{
-          margin:.5vw 0;
-          font-family:light;
-          font-size:1.3vw;
-      }
-      img{
-          height:25vw;
-          width:25vw;
-          border-radius:1vw;
-          box-shadow:var(--box-shadow2);
-      }
-      &:nth-child(2){
-          display:flex;
-          flex-direction: column;
-          align-items: center;
-      }
-  }
-}
+  margin: 4vw 0;
 
-
-ul{
-  font-size:.8vw;
-}
-
-ul h2{
-  font-size:1.1vw;
-}
-
-
-.mission{
-width:70%;
-margin:  0 auto;
-}
-.space{
-  margin:2vw 0;
-}
-hr{
-  margin: 1vw 0 ;
-}
-
-.mission a{
-  font-family: lighter;
-font-size:1vw;
-}
-
-.mission p{
-font-family: lighter;
-font-size:1.25vw;
-line-height: 150%;
-}
-
-.double-col p{
-  font-family: lighter;
-font-size:.8w;
-line-height: 150%;
-}
-.mission h2{
-font-family: thin;
-font-size:1.25vw;
-font-weight: bold;
-}
-.mission h3{
-font-family: thin;
-font-size:2.5vw;
-text-align:center;
-margin-bottom:25px;
-}
-.mission h4{
-font-family: thin;
-font-size:2vw;
-}
-.duma{
-width:25vw;
-height:25vw;
-
-border-radius:1vw;
-}
-
-.top-row{
-    display:flex;
-    flex-direction:row;
-    width:100%;
-  }
-  .textt{
-    width:50%;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-  }
-  
-  .main-image{
-    width:50%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
-  .triple-col{
+  section {
+    width: 35%;
     display: flex;
-    flex-direction:row;
-    width: 100%;
-    margin-bottom:2vw;
+    min-height: 2vw;
+    flex-direction: column;
+
+    h2 {
+      font-family: bold;
+      font-size: 1.3vw;
+    }
+
+    p {
+      margin: .5vw 0;
+      font-family: light;
+      font-size: 1.3vw;
+    }
+
+    img {
+      height: 25vw;
+      width: 25vw;
+      border-radius: 1vw;
+      box-shadow: var(--box-shadow2);
+    }
+
+    &:nth-child(2) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
-  .col{
-    width:33%;
-      display:flex;
-    flex-direction:column;
-    padding-right:2vw;
-  }
-  .double-col{
-    width:50%;
-      display:flex;
-    flex-direction:column;
-    padding-right:2vw;
-  }
-  
-  .rus{
-    margin-bottom:.5vw;
-  }
-  
-  .logo{
-    width:60px;
-    height:60px;
-    margin-left:10px;
+}
+
+
+ul {
+  font-size: 1vw;
+}
+
+ul h2 {
+  font-size: 1.2vw;
+}
+
+
+.mission {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.space {
+  margin: 2vw 0;
+}
+
+hr {
+  margin: 1vw 0;
+}
+
+.mission a {
+  font-family: lighter;
+  font-size: 1vw;
+}
+
+.mission p {
+  font-family: lighter;
+  font-size: 1.25vw;
+  line-height: 150%;
+}
+
+.double-col p {
+  font-family: lighter;
+  font-size: .8w;
+  line-height: 150%;
+}
+
+.mission h2 {
+  font-family: thin;
+  font-size: 1.25vw;
+  font-weight: bold;
+}
+
+.mission h3 {
+  font-family: thin;
+  font-size: 2.5vw;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.mission h4 {
+  font-family: thin;
+  font-size: 2vw;
+}
+
+.duma {
+  width: 25vw;
+  height: 25vw;
+
+  border-radius: 1vw;
+}
+
+.top-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.textt {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.triple-col {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 2vw;
+}
+
+.col {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 2vw;
+}
+
+.double-col {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 2vw;
+}
+
+.rus {
+  margin-bottom: .5vw;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+}
+
+.sources {
+  width: 100%;
+  height: 4vw;
+  display: flex;
+  align-items: center;
+
+  h1 {
+    color: var(--dark-purple);
+    font-size: 2vw;
+    margin: 0 1vw;
   }
 
-  .sources{
-    width:100%;
-    height:4vw;
-    display:flex;
-    align-items: center;
-    h1{
-      color:var(--dark-purple);
-      font-size:2vw;
-      margin: 0 1vw;
-    }
-    a{
-      color:black;
-      margin: 0 1vw;
-      margin-top:1vw;
-    }
+  a {
+    color: black;
+    margin: 0 1vw;
+    margin-top: 1vw;
   }
+}
