@@ -819,6 +819,7 @@ html::-webkit-scrollbar-thumb:hover {
 
 ul {
   font-size: 1vw;
+  font-family: regular;
 }
 
 ul h2 {
