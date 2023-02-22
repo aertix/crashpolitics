@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords"
+        content="meta tags, meta description, meta keywords, SEO, search engine optimization, crash politics, politics,">
+    <title>Crash Politics</title>
+    <link rel="icon" type="image/png" href="../media/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scss/bites.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+    <!-- NAVBAR -->
+
+    <a target="_blank" href="https://www.instagram.com/crash.politics/">
+        <div class="insta"></div>
+    </a>
+    <script>
+        $(function () {
+            $("#navbar-placeholder").load("../components/navbar.html");
+        });
+    </script>
+    <div id="navbar-placeholder"></div>
+
+    <!-- Main Stuff -->
+
+    <div class="space"></div>
+
+    <section class="mission">
+        <h3>What is the house of reps?</h3>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <hr>
+                    <div class="triple-col">
+                        <div class='textt'>
+                            <h4>History</h4>
+                            <p class='rus'>For centuries, the House of Representatives has been part of the branch of
+                                government that has represented the will of the people of the United States of America.
+                                It was formally established in 1789 as a result of the Great Compromise in 1787, in
+                                which two plans were presented in an attempt to create a way to represent the people:
+                                the New Jersey plan (proposed by William Patterson) and the Virginia plan (proposed by
+                                Edmund Randolph). Finally, both sides agreed on the Great Compromise, which established
+                                a two branch legislature called congress with two houses: the House of Representatives
+                                and the senate. Each state would be assigned two senators, while the number of
+                                representatives would be determined by the state’s population, with the number of
+                                representatives changing every ten years based on the census (the official U.S. survey
+                                taken every 10 years).
+                            </p>
+                        </div>
+                        <div class='main-image'>
+                            <img src='../biteImages/government/gov1.jpg' class='duma'>
+                        </div>
+
+
+                    </div>
+                    <hr>
+                    <div class="triple-col">
+                        <div class="col">
+                            <h4>Powers of the house:</h4>
+                            <p class='rus'>The House of Representatives (or “reps” for short) has extensive powers
+                                granted by the Constitution, including the authority to initiate impeachment
+                                proceedings, which are used to try and potentially remove someone from office or a
+                                government position. They are also permitted to draft revenue (money) bills, and, in the
+                                event of an electoral college tie, they have the power to elect the President of the
+                                United States.
+                            </p>
+                        </div>
+                        <div class="col">
+                            <h4>Powers of the speaker:</h4>
+                            <p class='rus'>The Speaker of the House is one of the most important positions in the house.
+                                This person leads the house debates and appoints members of the conference committee.
+                                Furthermore, if both the President and the Vice President are unable to fulfill their
+                                duties, the speaker has the power to become president.
+                            </p>
+                        </div>
+                        <div class="col">
+                            <h4>Reps in California:</h4>
+                            <p class='rus'>Every two years, voters elect their state’s representatives. Our state of
+                                California currently has 53 representatives because it is one of the most populous
+                                states in the U.S., as opposed to Wyoming, which only has 19.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+    </section>
+
+    <div class="sources">
+        <h1>Sources</h1>
+        <a href="https://www.britannica.com/topic/House-of-Representatives-United-States-government#ref283100.">Encyclopedia
+            Brittanica</a>
+        <a
+            href="https://www.whitehouse.gov/about-the-white-house/our-government/the-legislative-branch/#:~:text=The%20House%20has%20several%20powers,of%20an%20Electoral%20College%20tie.">Whitehouse.gov</a>
+        <a href="https://www.britannica.com/topic/Connecticut-Compromise. ">Britannica-Conneticut</a>
+    </div>
+    <!-- Foooter -->
+    <script>
+        $(function () {
+            $("#footer-placeholder").load("../components/footer.html");
+        });
+    </script>
+    <div id="footer-placeholder"></div>
+
+    <div class="loader-wrapper">
+        <div class="wrapper">
+            <script>
+                // loader
+                $(function () {
+                    $("#loader-placeholder").load("../components/loader.html");
+                });
+            </script>
+            <div id="loader-placeholder"></div>
+        </div>
+        <div id="filler"></div>
+    </div>
+    <script>
+        window.addEventListener('load', (event) => {
+            $('.loader-wrapper').fadeOut('slow')
+        })
+    </script>
+
+</body>
+
+</html>

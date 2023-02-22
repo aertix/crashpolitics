@@ -1,0 +1,91 @@
+@import '../scss/required';
+@import '../scss/buttons';
+@import '../scss/navbar';
+@import '../scss/footer';
+
+.about{
+    width:100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin:4vw 0;
+    section{
+        width:40%;
+        height:100%;
+        h1{
+            font-size:2.8vw;
+            font-family:regular;
+            color:var(--dark-purple);
+            margin-bottom:.1vw;
+        }
+        p{
+            font-family:lighter;
+            font-size:1vw;
+        }
+        button{
+            margin:1vw 0;
+            @include button();
+        }
+        img{
+            height:30vw;
+            box-shadow: var(--box-shadow);
+        }
+        &:nth-child(1){
+            display:flex;
+            flex-direction: column;
+        }
+        &:nth-child(2){
+            @include center();
+        }
+    }
+}
+
+.our-projects{
+    justify-content: center;
+    display:grid;
+    grid-gap:2vw;
+    grid-template-columns: 40vw 40vw;
+    div{
+        box-shadow:0 0 10px 2px gray;
+        transition: 1s all;
+
+        background: hsl(260, 35%, 92%);  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #f2eef6, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        border-radius:2vw;
+        padding:2vw;
+        a{
+            text-decoration: none;
+            color:black;
+        }
+        h2{
+            font-family:regular;
+            font-size:1.3vw;
+            transition:1s all;
+            margin-bottom:1vw;
+            cursor:pointer;
+        }
+        p{
+            font-family:light;
+            font-size:1.2vw;
+            margin-bottom:1vw;
+            pointer-events:none;
+        }
+        button{
+            @include button();
+        }
+        &:hover{
+            box-shadow: 0 0 20px 4px var(--dark-purple);
+            padding:3vw;
+            h2{
+                font-size:2.3vw;
+                color:var(--dark-purple);
+            }
+        }
+    }
+}
+
+
+
+@import '../mobile/works'

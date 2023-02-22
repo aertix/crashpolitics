@@ -1,0 +1,89 @@
+@import '../scss/required';
+@import '../scss/buttons';
+@import '../scss/navbar';
+@import '../scss/footer';
+@import '../scss/biteImages';
+.title{
+    font-size:5.2001vw;
+    font-family:bold;
+    color:var(--dark-purple);
+    display:flex;
+    justify-content: center;
+    margin: 2vw 0 3.4vw 0;
+    position: relative;
+    &:after{
+        content:'';
+        position: absolute;
+        bottom:-1vw;
+        width:20vw;
+        height:.2vw;
+        border-radius:.1vw;
+        background-color:var(--dark-purple);
+    }
+}
+
+
+
+.featuredBites{
+    margin:7vw 0;
+    width:100vw;
+    section{
+        display: flex;
+        justify-content: center;
+        &:nth-child(1){
+            margin-bottom:2vw;
+        }
+        a{
+            text-decoration: none;
+        }
+        }
+    
+}
+
+.card{
+    font-family:outfit;
+    margin-right:50px; 
+    margin-left:50px;
+    width:22vw;
+    height:26vw;
+    border-radius:.5vw;
+    overflow:hidden;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    background:url('media/dotted.jpg');
+    margin-bottom:30px;
+  }
+  .testcard{
+    min-width:20vw;
+    min-height:13vw;
+    position:relative;
+    overflow:hidden;
+    
+  }
+  
+  .cardimage{
+    width:22vw;
+    height:22vw;
+  
+    background-size:cover;
+    transition:.5s;
+  }
+  .cardimage:hover{
+    transform: scale(1.1);
+    opacity:.5;
+  }
+  .cardTitle{
+    text-align:center;
+    margin-top:5px;
+    color:black;
+    font-size:1.3vw;
+    font-family:light;
+  }
+  .cardText{
+    font-size:.9vw;
+    color:black;
+    margin-bottom:40px;
+    text-align:center;
+    font-family:light;
+  }
+
+  @import '../mobile/bites';

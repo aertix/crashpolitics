@@ -1,0 +1,129 @@
+@media(max-width:700px){
+    
+/*Team*/
+.edit{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .purple-line-container{
+    width:100%;
+    @include center();
+  }
+  .purple-line{
+    width:60vw;
+    height:.4vw;
+    background-color:#6E6E95;
+    transform: translateX(200px);
+    margin:3vw 0;
+  }
+  
+  .teamh1{
+    margin:1vw 0;
+    text-align:center;
+    font-weight:bold;
+    letter-spacing: 3px;
+    color: #6E6E95;
+    padding-bottom:10px;
+    font-family:light;
+    font-size: 8.2vw;
+  }
+  
+  .teamh1:after{
+    content: '';
+    background: #6E6E95;
+    display: block;
+    height: .8vw;
+    width: 28vw;
+    margin: 10px auto;
+
+  }
+  
+  .magin{
+    margin-top:50px;
+  }
+  /*mobile stuff mobile stuffmobile stuffmobile stuffmobile stuffmobile stuffmobile stuffmobile stuffmobile stuffmobile stuffmobile stuff */
+  /*mobile stuff */
+  /*mobile stuff mobile stuffmobile stuffmobile stuffmobile stuffmobile stuffmobile stuffmobile stuffmobile stuffmobile stuff */
+  .mobile-nav{
+    display:none;
+  
+  }
+  
+
+
+  .snip1515 {
+    font-family: light;
+    position: relative;
+    margin: 10px;
+    min-width: calc(18vw*4);
+    max-width: calc(18vw*4);
+    width: 100%;
+    color: #000000;
+    text-align: center;
+    line-height: 1.4em;
+    font-size: 14px;
+    box-shadow: none !important;
+    float:left;
+  }
+  
+  .snip1515 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .snip1515 .profile-image {
+    display: inline-block;
+    width: 80%;
+    z-index: 1;
+    position: relative;
+    padding: 10px;
+    border: 4px solid #6E6E95;
+    
+  }
+  
+  .snip1515 .profile-image img {
+    max-width: 100%;
+    vertical-align: top;
+    width:calc(14vw*4);
+    height:calc(14vw*4);
+    background-color:black;
+    object-fit:cover;
+    box-shadow: 0 0 20px;
+    transition: .4s;
+  }
+  
+  .profile-image img:hover {
+    transform: scale(1.07);
+  }
+  
+  .snip1515 figcaption {
+    width: 100%;
+    background-color: #F2F2F2;
+    color: #555;
+    padding: 125px 25px 25px;
+    margin-top: -100px;
+    display: inline-block;
+  }
+  
+  .snip1515 h3,
+  .snip1515 h4,
+  .snip1515 p {
+    margin: 0 0 5px;
+  }
+  
+  .snip1515 h3 {
+    font-weight: 600;
+    font-size: 4vw;
+    font-family: regular;
+    margin-bottom:.7vw;
+  }
+  
+  .snip1515 h4 {
+    color: #8c8c8c;
+    font-size:4vw;
+    font-family:thin;
+    letter-spacing: 2px;
+  }
+}

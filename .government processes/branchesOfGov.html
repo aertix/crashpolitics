@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords"
+    content="meta tags, meta description, meta keywords, SEO, search engine optimization, crash politics, politics,">
+  <title>Crash Politics</title>
+  <link rel="icon" type="image/png" href="../media/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../scss/bites.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+  <!-- NAVBAR -->
+
+  <a target="_blank" href="https://www.instagram.com/crash.politics/">
+    <div class="insta"></div>
+  </a>
+  <script>
+    $(function () {
+      $("#navbar-placeholder").load("../components/navbar.html");
+    });
+  </script>
+  <div id="navbar-placeholder"></div>
+
+  <!-- Main Stuff -->
+
+  <div class="space"></div>
+
+  <section class="mission">
+    <h3><b>Branches of Government</b></h3>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <hr>
+          <div class="triple-col">
+            <div class='textt'>
+              <h4><b>History</b></h4>
+              <p class='rus'>The US government is divided into <b>3 branches</b> (<b>executive, legislative, and
+                  judicial</b>), each of which has their own specific jobs. Each of the three branches of government
+                <b>"checks" (ie, blocks) the power of the other two</b>, so that no one branch can become too powerful.
+                The president (executive) can <b>veto laws</b> passed by Congress (legislative), and also <b>choose the
+                  judges</b> in the Supreme Court (judiciary). Congress can <b>overturn a presidential veto</b> if 2/3
+                of the members vote to do so. The Supreme Court <b>can declare laws</b> passed by Congress and the
+                president <b>unconstitutional</b>, and hence, invalid.
+              </p>
+            </div>
+            <div class='main-image'>
+              <img src='../biteImages/government/gov2.jpg' class='duma'>
+            </div>
+
+          </div>
+          <hr>
+          <div class="triple-col">
+            <div class="col">
+              <h4><b>Executive Branch</b></h4>
+              <p class='rus'>
+              </p>
+              <p class='rus'>-Responsible for <b>carrying out laws</b>.</p>
+              <p class='rus'>-Contains the <b>President and Vice President</b>.</p>
+              <p class='rus'>-Organizes both domestic and foreign affairs and policies.</p>
+              <p class='rus'>-Has the power to <b>veto (reject) laws created</b> by the legislative branch.</p>
+            </div>
+            <div class="col">
+              <h4><b>Legislative Branch</b></h4>
+              <p class='rus'>
+              </p>
+              <p class='rus'>-Responsible for <b>creating laws</b> and regulations. </p>
+              <p class='rus'>-Divided into <b>2 parts</b> (the House and Senate: together they are Congress.</p>
+              <p class='rus'>-The <b>House</b> is made up of representatives from each state <b>based on the
+                  population</b> of the state. Example: California has more representatives than Utah because California
+                has a larger population. </p>
+              <p class='rus'>-The House is <b>responsible for creating and passing</b> federal laws.</p>
+              <p class='rus'>-The <b>Senate</b> is made up of senators with 2 senators from each state, regardless of
+                the population of the state. </p>
+              <p class='rus'>-The Senate is responsible for <b>approving/denying treaties</b> created by the executive
+                branch. Additionally, the Senate is responsible for <b>approving high-level officials</b> appointed to
+                the presidential cabinet. </p>
+
+            </div>
+            <div class="col">
+              <h4><b>Judicial Branch</b></h4>
+              <p class='rus'>
+              </p>
+              <p class='rus'>-Consists of the <b>Supreme Court</b>, which is made up of 9 judges who <b>serve for</b>
+                the entirety of their <b>life</b> and are <b>appointed by the current president</b>. </p>
+              <p class='rus'>-Responsible for <b>evaluating the laws</b> in the country through <b>judicial review</b>.
+              </p>
+              <p class='rus'>-Each judge is responsible for <b>interpreting the Constitution</b> to the best of their
+                knowledge and <b>evaluating laws</b> based on their perceptions of the rights of Americans. </p>
+              <p class='rus'>-Results of Supreme Court trials <b>can alter major laws</b> present in society. </p>
+            </div>
+          </div>
+  </section>
+
+  <div class="sources">
+    <h1>Sources</h1>
+    <a href="https://www.britannica.com/topic/House-of-Representatives-United-States-government#ref283100.">Encyclopedia
+      Brittanica</a>
+    <a
+      href="https://www.whitehouse.gov/about-the-white-house/our-government/the-legislative-branch/#:~:text=The%20House%20has%20several%20powers,of%20an%20Electoral%20College%20tie.">Whitehouse.gov</a>
+    <a href="https://www.britannica.com/topic/Connecticut-Compromise. ">Britannica-Conneticut</a>
+  </div>
+  <!-- Foooter -->
+  <script>
+    $(function () {
+      $("#footer-placeholder").load("../components/footer.html");
+    });
+  </script>
+  <div id="footer-placeholder"></div>
+
+  <div class="loader-wrapper">
+    <div class="wrapper">
+      <script>
+        // loader
+        $(function () {
+          $("#loader-placeholder").load("../components/loader.html");
+        });
+      </script>
+      <div id="loader-placeholder"></div>
+    </div>
+    <div id="filler"></div>
+  </div>
+  <script>
+    window.addEventListener('load', (event) => {
+      $('.loader-wrapper').fadeOut('slow')
+    })
+  </script>
+
+</body>
+
+</html>

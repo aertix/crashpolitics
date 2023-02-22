@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords"
+    content="meta tags, meta description, meta keywords, SEO, search engine optimization, crash politics, politics,">
+  <title>Crash Politics</title>
+  <link rel="icon" type="image/png" href="../media/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="../js/click.js"></script>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <a target="_blank" href="https://www.instagram.com/crash.politics/">
+    <div class="insta"></div>
+  </a>
+  <script>
+    $(function () {
+      $("#navbar-placeholder").load("../components/navbar.html");
+    });
+  </script>
+  <div id="navbar-placeholder"></div>
+
+  <!-- Main Stuff -->
+
+  <div class="about">
+    <section>
+      <h1>Who Are We?
+      </h1>
+      <p>Crash Politics is a a 501(c)(3) non-profit organization made up of high school students who aim to make it
+        easier for teens to keep up with politics. We post frequent “Bites” or bite-sized articles about current events,
+        ideologies, government basics, and popular political debates. Our “Bites” efficiently present both sides of the
+        argument and are articulated to be as objective as possible. These summaries provide a simple and convenient way
+        for teens to fulfill their civic duty and be updated with the political world instead of being overwhelmed by
+        the thousands of in-depth news articles published each day, which don’t promote an easy avenue to turn political
+        awareness into something habitual.</p>
+      <br>
+      <br>
+      <h1>What Do We Do?
+      </h1>
+      <p>We operate both through this website and in-person presentations and workshops at middle schools. Our
+        curriculum is created and taught entirely by high school students. By doing so, any jargon that can be
+        characteristic of some news sites is eliminated. After all, who knows what teens understand better than teens
+        themselves? Also, a huge benefit to in-person presentations is the provided convenience that usually bars teens
+        from keeping up with politics. Information is now being directly discussed in their own classrooms; the Crash
+        Politics curriculum is designed to be like a history class — except about the present.
+      </p>
+      <a href="../contact/index.html"><button>Get Involved</button></a>
+    </section>
+    <section>
+      <img src="aboutImage.jpg">
+    </section>
+  </div>
+
+  <section class="our-projects">
+    <div>
+      <a>
+        <a href="">
+          <h1>Presentations</h1>
+        </a>
+        <p>Will be updated soon!</p>
+        <a href=""><button>Learn More</button></a>
+    </div>
+    <div>
+      <a href="">
+        <h1>Upcoming activities</h1>
+      </a>
+      <p>Will be updated soon!</p>
+      <a href=""><button>Learn More</button></a>
+    </div>
+  </section>
+  <!-- Foooter -->
+  <script>
+    $(function () {
+      $("#footer-placeholder").load("../components/footer.html");
+    });
+  </script>
+  <div id="footer-placeholder"></div>
+
+  <div class="loader-wrapper">
+    <div class="wrapper">
+      <script>
+        // loader
+        $(function () {
+          $("#loader-placeholder").load("../components/loader.html");
+        });
+      </script>
+      <div id="loader-placeholder"></div>
+    </div>
+    <div id="filler"></div>
+  </div>
+  <script>
+    window.addEventListener('load', (event) => {
+      $('.loader-wrapper').fadeOut('slow')
+    })
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - filename
+
+Backtrace:
+/nix/store/9lzk5blrdxywpv3kmhwxh4qp1qpfz7gc-ruby2.7.5-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:454:in `read'
+/nix/store/9lzk5blrdxywpv3kmhwxh4qp1qpfz7gc-ruby2.7.5-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:454:in `update_stylesheet'
+/nix/store/9lzk5blrdxywpv3kmhwxh4qp1qpfz7gc-ruby2.7.5-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/nix/store/9lzk5blrdxywpv3kmhwxh4qp1qpfz7gc-ruby2.7.5-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+/nix/store/9lzk5blrdxywpv3kmhwxh4qp1qpfz7gc-ruby2.7.5-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/nix/store/9lzk5blrdxywpv3kmhwxh4qp1qpfz7gc-ruby2.7.5-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:294:in `watch'
+/nix/store/9lzk5blrdxywpv3kmhwxh4qp1qpfz7gc-ruby2.7.5-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin.rb:109:in `method_missing'
+/nix/store/9lzk5blrdxywpv3kmhwxh4qp1qpfz7gc-ruby2.7.5-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:358:in `watch_or_update'
+/nix/store/9lzk5blrdxywpv3kmhwxh4qp1qpfz7gc-ruby2.7.5-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/nix/store/9lzk5blrdxywpv3kmhwxh4qp1qpfz7gc-ruby2.7.5-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+/nix/store/9lzk5blrdxywpv3kmhwxh4qp1qpfz7gc-ruby2.7.5-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+/nix/store/495ki5apafmbi8d2mrw06wp9j7xr86q0-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+/nix/store/jyas5ldjnv5796x9m56b2svy2jzi9w6y-sass-3.7.4/bin/sass:21:in `load'
+/nix/store/jyas5ldjnv5796x9m56b2svy2jzi9w6y-sass-3.7.4/bin/sass:21:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - filename"; }

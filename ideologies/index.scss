@@ -1,0 +1,86 @@
+@import '../scss/required';
+@import '../scss/buttons';
+@import '../scss/navbar';
+@import '../scss/footer';
+
+.bite-title{
+    color:var(--dark-purple);
+    font-family:regular;
+    font-size:3vw;
+    text-align: center;
+    margin:1vw 0;
+}
+.bite{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:2vw;
+    section{
+        width:35%;
+        display:flex;
+        min-height:2vw;
+        flex-direction: column;
+        h2{
+            font-family:bold;
+            font-size:1.3vw;
+        }
+        p{
+            margin:.5vw 0;
+            font-family:light;
+            font-size:1.3vw;
+        }
+        img{
+            height:25vw;
+            width:25vw;
+            border-radius:1vw;
+            box-shadow:var(--box-shadow2);
+        }
+        &:nth-child(2){
+            @include center();
+        }
+    }
+}
+
+.seeker{
+    position: fixed;
+    top:6vw;
+    left:0;
+    display:flex;
+    flex-direction: column;
+    z-index:1000;
+
+}
+.seeker a{
+    font-size:1vw;
+    text-decoration: none;
+    padding:.5vw;
+    transition: 1s all;
+    position:relative;
+    color:black;
+    display:block;
+    border-bottom:.05vw solid black;
+    font-family:light;
+}
+.seeker a::after{
+    content:'';
+    position:absolute;
+    left:0;
+    top:92%;
+    width:0;
+    height:.2vw;
+    background-color:var(--dark-purple) ; 
+    transition: 0.25s ease-out;
+
+}
+.seeker a:hover::after{
+    width: 100%;
+}
+
+
+
+
+
+
+@import '../mobile/ideologies';

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords"
+    content="meta tags, meta description, meta keywords, SEO, search engine optimization, crash politics, politics,">
+  <title>Crash Politics</title>
+  <link rel="icon" type="image/png" href="../media/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../scss/bites.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+  <!-- NAVBAR -->
+
+  <a target="_blank" href="https://www.instagram.com/crash.politics/">
+    <div class="insta"></div>
+  </a>
+  <script>
+    $(function () {
+      $("#navbar-placeholder").load("../components/navbar.html");
+    });
+  </script>
+  <div id="navbar-placeholder"></div>
+
+  <!-- Main Stuff -->
+
+  <div class="bite">
+    <section>
+
+      <h1 class="bite-title">Nuclear Fusion </h1>
+      <p class=”rus”>On December 5th, 2022 the Lawrence Livermore National Laboratory (LLNL) reported a breakthrough in
+        their nuclear fusion experiments. The LLNL claimed that their researchers had conducted the first successful
+        nuclear fusion experiment which resulted in a <b>positive net energy change</b> (more energy came from the
+        reaction that was put into it).
+
+        But first, what is nuclear fusion research?
+        <br><br>
+        For the last few decades, nuclear power plants have been run through nuclear fission (not nuclear fusion)
+        reactions. <b>Nuclear fission</b> is the reaction when atoms from nuclear materials split apart, creating heat
+        energy that can be harnessed to create electricity. However, Nuclear fission results in radioactive waste that
+        remains dangerous for thousands of years.
+        <br><br>
+        What we’re focused on is <b>nuclear fusion</b>, which is the opposite of nuclear fission. Isotopes are forced
+        together and bind to create new atoms, releasing immense amounts of energy (this is where the equation E=mc^2
+        comes from). It fuels powerful things like the sun and hydrogen bombs. Researchers have long said that if
+        scientists can achieve nuclear fusion, it would produce energy so efficiently that the world's energy crisis
+        would be no more. Essentially, scientists are trying to harness the power of a hydrogen bomb reaction on a much
+        smaller and more controlled area. However, achieving a nuclear fusion reaction that produces energy is very
+        complicated and expensive, which is why many experts say it will take decades before humans will see benefits
+        from nuclear fusion.
+        <br><br>
+        The recent breakthrough from the LLNL has shown the first experiment that proved to be a significant step toward
+        creating nuclear fusion power plants, but much of the information surrounding the experiment is misrepresented.
+        Although it is true that the reaction at the LLNL used 2 energy units to see a 3 energy unit output (positive
+        net gain), many news sources don't report that the LLNL actually used much more energy to charge the lasers
+        required to begin the reaction. If chagrin the lasers were taken into account, the LLNL actually used 300 units
+        of energy to see an output of 3 units of energy. Nevertheless, the experiment is a forward step in nuclear
+        fusion technology.
+        <br><br>
+        In addition to the LLNL, there are many other companies that are investing billions of dollars into fusion
+        technology. Commonwealth Fusion Systems, Tae Technologies, General Atomics, and General Fusion are just some of
+        the many companies, with the help of investors like Jeff Bezos, attempting to create energy through fusion.
+        <br><br>
+        While many see the importance of this achievement in nuclear fusion technology, it is important to recognize
+        that efficient energy production from nuclear fusion is something that humanity may not figure out for decades.
+      </p>
+
+
+    </section>
+    <section>
+      <div class="space"></div>
+      <img src="../biteImages/domestic/nuclearfusion2.png">
+    </section>
+  </div>
+
+
+  <div class="sources">
+    <h1>Sources</h1>
+    <a target="_blank"
+      href="https://www.forbes.com/sites/rrapier/2023/01/15/the-nuclear-fusion-breakthrough-in-context/?sh=7869459c3a07 ">Forbes</a>
+    <a target="_blank" href="https://www.cbsnews.com/news/nuclear-fusion-60-minutes-2023-01-15/ ">CBS</a>
+    <a target="_blank"
+      href="https://www.fastcompany.com/90779799/the-frontrunners-in-the-trillion-dollar-race-for-limitless-fusion-power  ">Fast
+      Company</a>
+  </div>
+
+  <!-- Foooter -->
+  <script>
+    $(function () {
+      $("#footer-placeholder").load("../components/footer.html");
+    });
+  </script>
+  <div id="footer-placeholder"></div>
+
+  <div class="loader-wrapper">
+    <div class="wrapper">
+      <script>
+        // loader
+        $(function () {
+          $("#loader-placeholder").load("../components/loader.html");
+        });
+      </script>
+      <div id="loader-placeholder"></div>
+    </div>
+    <div id="filler"></div>
+  </div>
+  <script>
+    window.addEventListener('load', (event) => {
+      $('.loader-wrapper').fadeOut('slow')
+    })
+  </script>
+
+</body>
+
+</html>

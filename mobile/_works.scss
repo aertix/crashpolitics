@@ -1,0 +1,91 @@
+@media(max-width:700px){
+    .about{
+        width:100%;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        margin:4vw 0;
+        section{
+            width:80%;
+            height:100%;
+            justify-content: center;
+            align-items: center;
+            h1{
+                font-size:8.8vw;
+                font-family:regular;
+                color:var(--dark-purple);
+                margin-bottom:.1vw;
+            }
+            p{
+                font-family:lighter;
+                font-size:5vw;
+            }
+            button{
+                margin:1vw 0; 
+                @include button();
+            }
+            img{
+                height:80vw;
+                box-shadow: var(--box-shadow);
+                border-radius:7vw;
+                margin:4vw;
+            }
+            &:nth-child(1){
+                display:flex;
+                flex-direction: column;
+            }
+            &:nth-child(2){
+                @include center();
+            }
+        }
+    }
+
+
+    .our-projects{
+        justify-content: center;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        div{
+            box-shadow:0 0 10px 2px gray;
+            transition: 1s all;
+            text-align: center;
+            background: hsl(260, 35%, 92%);  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #f2eef6, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+            border-radius:2vw;
+            margin:10vw;
+            padding:2vw;
+            a{
+                text-decoration: none;
+                color:black;
+            }
+            h2{
+                font-family:regular;
+                font-size:7.3vw;
+                transition:1s all;
+                margin-bottom:1vw;
+                cursor:pointer;
+            }
+            p{
+                font-family:light;
+                font-size:5.2vw;
+                margin-bottom:1vw;
+                pointer-events:none;
+            }
+            button{
+                @include button();
+                padding:.5vw;
+            }
+            &:hover{
+                box-shadow: 0 0 20px 4px var(--dark-purple);
+                padding:2vw;
+                h2{
+                    font-size:7.3vw;
+                }
+            }
+        }
+    }
+}

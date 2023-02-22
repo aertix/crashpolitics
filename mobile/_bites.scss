@@ -1,0 +1,64 @@
+@media(max-width:700px){
+
+
+
+
+    
+.title{
+    font-size:12.2vw;
+    text-align: center;
+    font-family:bold;
+}
+     // featured bites
+     .featuredBitesTitle{
+        font-size:9vw;
+    }
+
+    
+.featuredBites{
+    width:100vw;
+    section{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        &:nth-child(1){
+            margin-bottom:2vw;
+        }
+        }
+
+    
+    }
+    .card{
+        width:calc(22vw *3);
+        height:calc(26vw *3);
+        border-radius:calc(.5vw *10);
+      }
+
+      .testcard{
+        min-width:calc(20vw *3);
+        min-height:calc(13vw *3);
+        
+      }
+
+      .cardimage{
+        width:calc(22vw *3);
+        height:calc(22vw *3);
+      }
+
+      .cardTitle{
+        font-size:5vw;
+      }
+
+
+      .cardText{
+        display:none;
+
+      }
+
+      .videoSection{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+}

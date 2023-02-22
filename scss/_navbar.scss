@@ -1,0 +1,137 @@
+:root{
+    --navFontSize: .75vw;
+}
+
+.navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding:.5vw 0;
+    background:url(../media/dotted.jpg);
+    box-shadow: 0 0 .4vw .1vw #E7D7EC ;
+    img{
+        height:4vw;
+        margin:0 1vw;
+    }
+    section{
+      display: flex;
+
+    }
+}
+
+.nondropdown{
+  display: flex;
+  a{
+    font-family:thin;
+    color:gray;
+    display:block;
+    width:9vw;
+    height:4vw;
+    @include center();
+    font-size: var(--navFontSize);
+    text-decoration: none;
+        &:hover{
+            background-color:var(--light-purple);
+            box-shadow: 0 0 .4vw .1vw #E7D7EC ;
+        }
+  }
+}
+
+.dropbtn{
+    font-size:1.2vw;
+    border:none;
+    background-color: transparent;
+    color:gray;
+    display:block;
+    width:9vw;
+    height:4vw;
+    font-family:regular;
+
+  }
+.dropdown {
+  position: relative;
+
+
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100%;
+  box-shadow: 0 0 .4vw .1vw #E7D7EC ;
+  z-index: 1;
+}
+
+.dropdown-content a{
+  font-family:regular;
+  color:gray;
+  display:block;
+  width:9vw;
+  height:3vw;
+  @include center();
+  font-size: .8vw;
+  text-decoration: none;
+      &:hover{
+          background-color:var(--light-purple);
+      }
+}
+
+.dropdown-content a:hover {background-color: #F9F9FB; color:black;}
+.dropbtn:hover{
+    box-shadow: 0 0 .4vw .1vw #E7D7EC ;
+}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #E7D7EC
+;}
+
+@media(max-width:700px){
+  .navbar{
+    img{
+      height:12vw;
+      margin:0 1vw;
+    }
+  }
+
+  .nondropdown{
+    display: flex;
+    a{
+      width:20vw;
+      height:10vw;
+      @include center();
+      font-size: calc(var(--navFontSize)*2.9);
+      text-decoration: none;
+          &:hover{
+              background-color:var(--light-purple);
+              box-shadow: 0 0 .4vw .1vw #E7D7EC ;
+          }
+    }
+  }
+  .dropbtn{
+    font-size:3.2vw;
+    border:none;
+    background-color: transparent;
+    color:gray;
+    display:block;
+    width:20vw;
+    height:10vw;
+    font-family:regular;
+
+  }
+
+  .dropdown-content a{
+    font-family:regular;
+    color:gray;
+    display:block;
+    width:20vw;
+    height:8vw;
+    @include center();
+    text-align: center;
+    font-size: 2.5vw;
+    text-decoration: none;
+        &:hover{
+            background-color:var(--light-purple);
+        }
+  }
+
+
+}

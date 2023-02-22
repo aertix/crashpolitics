@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords"
+    content="meta tags, meta description, meta keywords, SEO, search engine optimization, crash politics, politics,">
+  <title>Crash Politics</title>
+  <link rel="icon" type="image/png" href="../media/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../scss/bites.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+  <!-- NAVBAR -->
+
+  <a target="_blank" href="https://www.instagram.com/crash.politics/">
+    <div class="insta"></div>
+  </a>
+  <script>
+    $(function () {
+      $("#navbar-placeholder").load("../components/navbar.html");
+    });
+  </script>
+  <div id="navbar-placeholder"></div>
+
+  <!-- Main Stuff -->
+
+  <div class="bite">
+    <section>
+
+      <h1 class="bite-title">Electoral College </h1>
+      <p class='rus'>A system used in the United States to <b>elect a president</b> every <b>4 years</b></p>
+      <p class='rus'>Each state has a specific number of “electors” which is the sum of the number of house
+        representatives and the number of senators. Example: California has 53 representatives in the house and
+        2 senators, which means they get 55 electoral votes, (since the number of representatives in the House
+        is determined by population size; California would have more electoral votes than Utah because its
+        population is larger).
+      </p>
+      <p class='rus'> Each state holds elections and the candidate who receives the most votes in a state receives
+        the electoral votes from that state. Example: If the majority of Californians vote for a democratic
+        candidate, then the democratic candidate receives 55 electoral votes.
+      </p>
+      <p class='rus'>In total there are 538 electoral votes from all the states, meaning that a presidential
+        candidate needs 270 (50.1%) electoral votes to be elected.</p>
+      <p class='rus'>In comparison, the popular vote is the total number of people that voted for a candidate.
+      </p>
+      <p class='rus'>Therefore it is possible for a candidate to receive the majority in the popular vote, but
+        still lose the election, because the election is determined by electoral votes only. </p>
+    </section>
+    <section>
+      <div class="space"></div>
+      <img src="../biteImages/domestic/electoral.jpg">
+    </section>
+  </div>
+
+
+  <div class="sources">
+    <h1>Sources</h1>
+    <a href="https://www.britannica.com/topic/House-of-Representatives-United-States-government#ref283100.">Encyclopedia
+      Brittanica</a>
+    <a
+      href="https://www.whitehouse.gov/about-the-white-house/our-government/the-legislative-branch/#:~:text=The%20House%20has%20several%20powers,of%20an%20Electoral%20College%20tie.">Whitehouse.gov</a>
+    <a href="https://www.britannica.com/topic/Connecticut-Compromise. ">Britannica-Conneticut</a>
+  </div>
+
+  <!-- Foooter -->
+  <script>
+    $(function () {
+      $("#footer-placeholder").load("../components/footer.html");
+    });
+  </script>
+  <div id="footer-placeholder"></div>
+
+  <div class="loader-wrapper">
+    <div class="wrapper">
+      <script>
+        // loader
+        $(function () {
+          $("#loader-placeholder").load("../components/loader.html");
+        });
+      </script>
+      <div id="loader-placeholder"></div>
+    </div>
+    <div id="filler"></div>
+  </div>
+  <script>
+    window.addEventListener('load', (event) => {
+      $('.loader-wrapper').fadeOut('slow')
+    })
+  </script>
+
+</body>
+
+</html>

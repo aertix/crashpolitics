@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords"
+    content="meta tags, meta description, meta keywords, SEO, search engine optimization, crash politics, politics,">
+  <title>Crash Politics</title>
+  <link rel="icon" type="image/png" href="../media/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../index.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+  <!-- css for insta in required -->
+  <a target="_blank" href="https://www.instagram.com/crash.politics/">
+    <div class="insta"></div>
+  </a>
+  <!-- NAVBAR -->
+  <script>
+    $(function () {
+      $("#navbar-placeholder").load("../components/navbar.html");
+    });
+  </script>
+  <div id="navbar-placeholder"></div>
+
+  <!-- Main Stuff -->
+  <div class="header">
+    <h1>Crash Politics</h1>
+    <h2>Making It More Accessible for Teens to Keep Up With Politics</h2>
+  </div>
+
+  <span class="featuredBitesTitle">Featured Bites</span>
+
+  <div class="featuredBites">
+    <!-- FeaturedRow1 -->
+    <section>
+      <div data-aos="fade-up-left">
+        <a href="../.political debates/transgender.html">
+          <div class="card">
+            <div class="testcard">
+              <div class="cardimage" id="political8"></div>
+            </div>
+            <div class="cardTitle">Transgender Women In Sports</div>
+            <div class="cardText">Political Debates</div>
+          </div>
+        </a>
+      </div>
+
+
+      <div data-aos="fade-up">
+        <a href="../.domestic/space.html">
+          <div class="card">
+            <div class="testcard">
+              <div class="cardimage" id="domestic7"></div>
+            </div>
+            <div class="cardTitle">George Santos Incident</div>
+            <div class="cardText">Domestic News</div>
+          </div>
+        </a>
+      </div>
+
+      <div data-aos="fade-up-left">
+        <a href="../.political debates/teacherShortage.html">
+          <div class="card">
+            <div class="testcard">
+              <div class="cardimage" id="domestic8"></div>
+            </div>
+            <div class="cardTitle">Teacher Shortage</div>
+            <div class="cardText">Domestic</div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- FeaturedRow1 -->
+    <section>
+      <div data-aos="fade-up-right">
+        <a href="../.global/brazil-riot.html">
+          <div class="card">
+            <div class="testcard">
+              <div class="cardimage" id="global1"></div>
+            </div>
+            <div class="cardTitle">Brazil Riot, January</div>
+            <div class="cardText">Global</div>
+          </div>
+        </a>
+      </div>
+
+      <div data-aos="fade-up-right">
+        <a href="../.domestic/nuclearfusion.html">
+          <div class="card">
+            <div class="testcard">
+              <div class="cardimage" id="domestic6"></div>
+            </div>
+            <div class="cardTitle">Nuclear Fusion</div>
+            <div class="cardText">Domestic News</div>
+          </div>
+        </a>
+      </div>
+
+      <div data-aos="fade-up-left">
+        <a href="../.political debates/gunControl.html">
+          <div class="card">
+            <div class="testcard">
+              <div class="cardimage" id="political2"></div>
+            </div>
+            <div class="cardTitle">Gun Control</div>
+            <div class="cardText"></div>
+          </div>
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <div class="videoSection">
+    <section>
+      <h1>Check out some pictures and videos from our most recent projects!</h1>
+      <h2>Learn more by visiting <a href="works/index.html">"Our Works"</a></h2>
+    </section>
+    <section>
+      <iframe class="video" src="https://www.youtube.com/embed/GzUigckTt9I" allowfullscreen="allowfullscreen">
+      </iframe>
+    </section>
+  </div>
+
+  <hr style="width:100vw; text-align:center;">
+
+  <div data-aos="fade-left" class="container" id="adviceboi">
+    <h1 class="advice-h1">Political Quotes</h1>
+    <p id="advice" class="speech-bubble"></p>
+  </div>
+
+
+  <!-- Foooter -->
+  <script>
+    $(function () {
+      $("#footer-placeholder").load("../components/footer.html");
+    });
+  </script>
+  <div id="footer-placeholder"></div>
+
+  <div class="loader-wrapper">
+    <div class="wrapper">
+      <script>
+        // loader
+        $(function () {
+          $("#loader-placeholder").load("../components/loader.html");
+        });
+      </script>
+      <div id="loader-placeholder"></div>
+    </div>
+    <div id="filler"></div>
+  </div>
+  <script>
+    window.addEventListener('load', (event) => {
+      $('.loader-wrapper').fadeOut('slow')
+    })
+  </script>
+
+  <script src="js/advice.js"></script>
+  <script src="js/AOS.js"></script>
+</body>
+
+</html>
