@@ -182,6 +182,11 @@
   background-size: cover;
 }
 
+#domestic9 {
+  background: url("../biteImages/domestic/chinese1.jpg");
+  background-size: cover;
+}
+
 #global1 {
   background: url("https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2023-01/230109-brazil-riot-planalto-palace-jm-04-115fa4.jpg");
   background-size: cover;
@@ -824,6 +829,7 @@ ul {
 
 ul h2 {
   font-size: 1.2vw;
+  font-family: bold;
 }
 
 .mission {

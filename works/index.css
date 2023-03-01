@@ -181,6 +181,11 @@
   background-size: cover;
 }
 
+#domestic9 {
+  background: url("../biteImages/domestic/chinese1.jpg");
+  background-size: cover;
+}
+
 #global1 {
   background: url("https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2023-01/230109-brazil-riot-planalto-palace-jm-04-115fa4.jpg");
   background-size: cover;
@@ -839,7 +844,7 @@ html::-webkit-scrollbar-thumb:hover {
 .our-projects div {
   box-shadow: 0 0 10px 2px gray;
   transition: 1s all;
-  background: hsl(260deg, 35%, 92%); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: hsl(260, 35%, 92%); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #f2eef6, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 2vw;
   padding: 2vw;
@@ -969,7 +974,7 @@ html::-webkit-scrollbar-thumb:hover {
     box-shadow: 0 0 10px 2px gray;
     transition: 1s all;
     text-align: center;
-    background: hsl(260deg, 35%, 92%); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+    background: hsl(260, 35%, 92%); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f2eef6, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 2vw;
     margin: 10vw;
